@@ -1,4 +1,4 @@
-# This is the Bootstrap id with React
+# This is the Bootstrap with React
 
 #### Make sure you have node version 8
 ```sh
