@@ -1,6 +1,6 @@
 import React from "react";
 
-const HelloWorld= () => {
+const JomboTron = () => {
     return(
         <div className="jumbotron">
             <h1 className="display-4">A Warm Welcome!</h1>
@@ -12,6 +12,6 @@ const HelloWorld= () => {
     );
 };
 
-export default HelloWorld;
+export default JomboTron;
 
         

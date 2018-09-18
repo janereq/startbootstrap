@@ -3,23 +3,26 @@ import React from 'react';
 import Header from './_header.jsx';
 import Footer from './_footer.jsx';
 
-import HelloWorld from "./_jumbotron.jsx";
+import JomboTron from "./_jumbotron.jsx";
+import Card from './_cards.jsx';
 
 //create your first component
 export class Home extends React.Component{
     
     render(){
         return (
-<<<<<<< HEAD
-            <div className="text-center mt-5">
-                <HelloWorld />
-               
-=======
             <div body>
+                {/* Navbar by JD */}
                 <Header />
-                <h1>This will be the Bootstrap Page</h1>
+                
+                {/* Jumbotron by Cathrine */}
+                <JomboTron />
+                
+                {/* cards by Janere */}
+                <Card />
+                
+                {/* footer by JD */}
                 <Footer />
->>>>>>> fc9904e2082aed35bdce1a29e600253e24c3cb50
             </div>
         );
     }
