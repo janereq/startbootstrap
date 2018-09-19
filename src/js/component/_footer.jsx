@@ -5,9 +5,9 @@ export default class Footer extends React.Component{
     
     render(){
         return (
-            <div className="text-center mt-5">
-                <h1>this will be the footer</h1>
-            </div>
+            <footer className="bg-dark text-white p-5 mt-4">
+                <p className="text-center">Copyright &copy; Your Website 2018</p>
+            </footer>
         );
     }
 }

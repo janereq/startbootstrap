@@ -11,15 +11,17 @@ export class Home extends React.Component{
     
     render(){
         return (
-            <div body className = "bg-light pt-4" >
+            <div body className = "bg-light pt-5" >
                 {/* Navbar by JD */}
                 <Header />
                 <div className="container mt-5">
                     {/* Jumbotron by Cathrine */}
                     <JomboTron />
-                    
-                    {/* cards by Janere */}
-                    <Card />
+                
+                    <div className="mt-3">
+                        {/* cards by Janere */}
+                        <Card />
+                    </div>
                 </div>
                 {/* footer by JD */}
                 <Footer />
